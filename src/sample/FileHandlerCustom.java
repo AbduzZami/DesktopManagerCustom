@@ -1,5 +1,8 @@
 package sample;
 
+        import javafx.scene.control.Alert;
+        import javafx.scene.control.ButtonType;
+
         import java.io.File;
         import java.io.IOException;
         import java.nio.file.Files;
@@ -13,7 +16,28 @@ public class FileHandlerCustom {
     public  static  String desktopPath = javax.swing.filechooser.FileSystemView.getFileSystemView().getHomeDirectory().getPath().replaceAll(regex,"/");
 
 
+    public static void reArrangeOthers(String path) throws IOException {
+
+            Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+            alert.setTitle("Desktop Manager");
+
+            alert.setHeaderText("Warning!!!");
+            alert.setContentText("Make sure you don't have any program files in that directory. Continue?");
+
+            alert.showAndWait().ifPresent(response -> {
+                if (response == ButtonType.OK) {
+                    try {
+                        rearrange(path);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+
+    }
     public static void rearrange(String path) throws IOException {
+
+
 
         try{
             Files.createDirectories(Paths.get(path+"/DesktopManager/"));
@@ -29,6 +53,13 @@ public class FileHandlerCustom {
             if (files!=null) {
                 showEmptyFolders(files);
             }
+            Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+            alert.setTitle("Desktop Manager");
+
+             alert.setHeaderText("Done");
+            alert.setContentText("Organized successfully!");
+
+            alert.showAndWait();
         }catch (Exception exception){
             System.out.println(exception.getMessage());
         }
