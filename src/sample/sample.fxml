@@ -8,25 +8,26 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="296.0" prefWidth="356.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <tabs>
     <Tab text="Desktop">
       <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="258.0" prefWidth="374.0">
                <children>
-                  <Text layoutX="253.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desktop Manager" />
-                  <Text layoutX="185.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on Organize to organize your desktop" />
-                  <Button layoutX="268.0" layoutY="224.0" mnemonicParsing="false" onAction="#organizeDesktop" text="Organize" />
+                  <Text layoutX="131.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desktop Manager" />
+                  <Text layoutX="63.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on Organize to organize your desktop" />
+                  <Button layoutX="146.0" layoutY="148.0" mnemonicParsing="false" onAction="#organizeDesktop" text="Organize" />
                </children></AnchorPane>
       </content>
     </Tab>
     <Tab text="Others">
       <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="373.0" prefWidth="558.0">
                <children>
-                  <Button layoutX="268.0" layoutY="224.0" mnemonicParsing="false" onAction="#organizeCustom" text="Organize" />
-                  <TextField fx:id="pathtextfield" layoutX="35.0" layoutY="109.0" prefHeight="26.0" prefWidth="527.0" promptText="Paste your path" />
-                  <Label layoutX="139.0" layoutY="168.0" text="Make sure you don't have any program files in this directory" />
+                  <Button layoutX="145.0" layoutY="142.0" mnemonicParsing="false" onAction="#organizeCustom" text="Organize" />
+                  <TextField fx:id="pathtextfield" layoutX="13.0" layoutY="69.0" prefHeight="26.0" prefWidth="266.0" promptText="Paste your path" />
+                  <Label layoutX="18.0" layoutY="105.0" text="Make sure you don't have any program files in this directory" />
+                  <Button fx:id="filechoose" layoutX="288.0" layoutY="69.0" mnemonicParsing="false" onAction="#browse" text="Choose" />
                </children></AnchorPane>
       </content>
     </Tab>
