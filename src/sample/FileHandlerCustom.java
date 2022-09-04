@@ -18,6 +18,15 @@ public class FileHandlerCustom {
 
     public static void reArrangeOthers(String path) throws IOException {
 
+        if(path.isEmpty()){
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Desktop Manager");
+
+            alert.setHeaderText("No path selected!!!");
+            alert.setContentText("Please select a path to continue.");
+
+            alert.show();
+        }else{
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
             alert.setTitle("Desktop Manager");
 
@@ -33,6 +42,25 @@ public class FileHandlerCustom {
                     }
                 }
             });
+
+//            Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+//            alert.setTitle("Desktop Manager");
+//
+//            alert.setHeaderText("Warning!!!");
+//            alert.setContentText("Make sure you don't have any program files in that directory. Continue?");
+//
+//            alert.showAndWait().ifPresent(response -> {
+//                if (response == ButtonType.OK) {
+//                    try {
+//                        rearrange(path);
+//                    } catch (IOException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
+//            });
+        }
+
+
 
     }
     public static void rearrange(String path) throws IOException {
