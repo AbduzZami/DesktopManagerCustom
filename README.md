@@ -29,6 +29,8 @@
     <img src="https://img.shields.io/github/license/AbduzZami/DesktopManagerCustom" alt="license" />
   </a>
 </p>
+
+[![Download](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeN0OyCYeygT1ew7mMVVQIX1T6WLPy3nv1MQj_tfLCrYU4Y5UsrDFa-G8XDIIQv_oQCWU&usqp=CAU)](https://github.com/AbduzZami/DesktopManagerCustom/releases/download/desktopmanager/Desktop.Manager.exe)
    
    
 
@@ -132,36 +134,24 @@ Contributions are what make the open source community such an amazing place to l
 <!-- FAQ -->
 ## FAQ
 
-- Question 1
+- Does it delete empty folder?
 
-  + Answer 1
+  + Yes it deletes empty folder.
 
-- Question 2
+- Where it moves the files?
 
-  + Answer 2
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+  + It moves the files to the "Desktop Manager" folder.
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Distributed under the GPL 3.0 License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Mail me to [Abduz Zami](mailto:abduz.zami@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
