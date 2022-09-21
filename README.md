@@ -1,13 +1,3 @@
-![hnet com-image](https://user-images.githubusercontent.com/69592754/191503941-388e1e76-3cec-41db-be9f-a46f05256eab.png)
-
-
-# DesktopManagerCustom
-Documentation will be here.
-
-![image](https://user-images.githubusercontent.com/69592754/188333725-1f3828cd-d650-43f3-92f8-8eb679d93011.png)
-![image](https://user-images.githubusercontent.com/69592754/188333732-6f689ddf-d561-417b-a5c0-bffe7f9edc76.png)
-
-
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
@@ -86,18 +76,9 @@ Documentation will be here.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![desktophome](https://user-images.githubusercontent.com/69592754/191519325-5182ae09-e8ac-4741-9f42-8abe8425d410.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Desktop Manager will organize all the files in the desktop folder. We often download or store files on the desktop for quick access. But we do not delete or organize them later. Desktop Manager will delete empty folders and organize files according to their types. So our desktop will look clean.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,16 +86,7 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+Only JavaFX is used for this software.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,29 +100,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+You will need following things to run this software on your computer.
+* jre
   ```sh
-  npm install npm@latest -g
+  https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+This software do not need any installation. Just download the application file and run it from anywhere.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,25 +121,14 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- Contributors -->
+## Contributors
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<a href="https://github.com/AbduzZami/DesktopManagerCustom/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AbduzZami/DesktopManagerCustom" />
+</a>
 
 
 <!-- CONTRIBUTING -->
@@ -189,14 +136,21 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+<a href="https://docs.github.com/en/get-started/quickstart/contributing-to-projects" target="_blank">See how to contribute to a project</a>
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+
+
+<!-- FAQ -->
+## :grey_question: FAQ
+
+- Question 1
+
+  + Answer 1
+
+- Question 2
+
+  + Answer 2
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,25 +173,6 @@ Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.c
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -271,3 +206,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[JavaFX-url]: https://github.com/jpro-one/markdown-javafx-renderer/blob/master/example/src/main/java/com/sandec/mdfx/ExampleMDFX.java
