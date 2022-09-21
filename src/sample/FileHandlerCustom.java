@@ -15,6 +15,9 @@ public class FileHandlerCustom {
 
     public  static  String desktopPath = javax.swing.filechooser.FileSystemView.getFileSystemView().getHomeDirectory().getPath().replaceAll(regex,"/");
 
+    public static void rearrangedesktop() throws IOException {
+        rearrange(desktopPath, true);
+    }
 
     public static void reArrangeOthers(String path) throws IOException {
 
@@ -36,44 +39,26 @@ public class FileHandlerCustom {
             alert.showAndWait().ifPresent(response -> {
                 if (response == ButtonType.OK) {
                     try {
-                        rearrange(path);
+                        rearrange(path,false);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
                 }
             });
-
-//            Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-//            alert.setTitle("Desktop Manager");
-//
-//            alert.setHeaderText("Warning!!!");
-//            alert.setContentText("Make sure you don't have any program files in that directory. Continue?");
-//
-//            alert.showAndWait().ifPresent(response -> {
-//                if (response == ButtonType.OK) {
-//                    try {
-//                        rearrange(path);
-//                    } catch (IOException e) {
-//                        e.printStackTrace();
-//                    }
-//                }
-//            });
         }
 
 
 
     }
-    public static void rearrange(String path) throws IOException {
 
-
-
+    public static void rearrange(String path, boolean isDesktop) throws IOException {
         try{
             Files.createDirectories(Paths.get(path+"/DesktopManager/"));
 
             File[] files = new File(path).listFiles();
 
             if (files!=null) {
-                showFiles(files,path);
+                showFiles(files,path,isDesktop);
             }
             if (files!=null) {
                 showEmptyFolders(files);
@@ -94,9 +79,7 @@ public class FileHandlerCustom {
 
     }
 
-    public static void rearrangedesktop() throws IOException {
-        rearrange(desktopPath);
-    }
+
 
     public static String getFileExtension(String fullName) {
         String fileName = new File(fullName).getName();
@@ -104,12 +87,12 @@ public class FileHandlerCustom {
         return (dotIndex == -1) ? "" : fileName.substring(dotIndex + 1);
     }
 
-    public static void showFiles(File[] files, String path) {
+    public static void showFiles(File[] files, String path, boolean isDesktop) {
         if (files!=null)
             for (File file : files) {
 
                 if (!file.isDirectory()) {
-                    if (!getFileExtension(file.getName()).equals("lnk")){
+                    if (!isDesktop || !getFileExtension(file.getName()).equals("lnk")){
                         moveFile(file, path);
                     }
                 }
