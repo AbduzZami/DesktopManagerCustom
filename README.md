@@ -10,22 +10,22 @@
   
 <!-- Badges -->
 <p>
-  <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
+  <a href="https://github.com/AbduzZami/DesktopManagerCustom/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
   </a>
   <a href="">
     <img src="https://img.shields.io/github/last-commit/AbduzZami/DesktopManagerCustom" alt="last update" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
+  <a href="https://github.com/AbduzZami/DesktopManagerCustom/network/members">
     <img src="https://img.shields.io/github/forks/AbduzZami/DesktopManagerCustom" alt="forks" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
+  <a href="https://github.com/AbduzZami/DesktopManagerCustom/stargazers">
     <img src="https://img.shields.io/github/stars/AbduzZami/DesktopManagerCustom" alt="stars" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
+  <a href="https://github.com/AbduzZami/DesktopManagerCustom/issues/">
     <img src="https://img.shields.io/github/issues/AbduzZami/DesktopManagerCustom" alt="open issues" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/master/LICENSE">
+  <a href="https://github.com/AbduzZami/DesktopManagerCustom/LICENSE">
     <img src="https://img.shields.io/github/license/AbduzZami/DesktopManagerCustom.svg" alt="license" />
   </a>
 </p>
