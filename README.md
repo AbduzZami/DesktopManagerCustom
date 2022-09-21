@@ -63,11 +63,11 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributors">Contributions</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#faq">FAQ</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -80,16 +80,10 @@
 
 Desktop Manager will organize all the files in the desktop folder. We often download or store files on the desktop for quick access. But we do not delete or organize them later. Desktop Manager will delete empty folders and organize files according to their types. So our desktop will look clean.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
 Only JavaFX is used for this software.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -101,26 +95,28 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 You will need following things to run this software on your computer.
-* jre
-  ```sh
-  https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB
-  ```
+* jre <a href="https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB" target="_blank">(Download and set up jre)</a>
 
 ### Installation
 
 This software do not need any installation. Just download the application file and run it from anywhere.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+* From "Desktop" tab, click on "Organize"  to organize your desktop folder.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![desktophome](https://user-images.githubusercontent.com/69592754/191538086-dafc203d-d353-4747-9998-e9f627a919a0.png)
 
+* From "Others" tab, click on "Choose" button to choose a folder and click on "Organize" button to organize that folder.
+
+![othertab](https://user-images.githubusercontent.com/69592754/191538941-ac8a1d4a-b9ea-452a-8c8c-0b3256e266f7.png)
+
+
+## Cautions
+If you choose any other folder rather than the desktop folder, make sure you dont have any program files in that folder.
 
 
 <!-- Contributors -->
@@ -141,7 +137,7 @@ Contributions are what make the open source community such an amazing place to l
 
 
 <!-- FAQ -->
-## :grey_question: FAQ
+## FAQ
 
 - Question 1
 
