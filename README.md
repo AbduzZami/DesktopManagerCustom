@@ -151,7 +151,7 @@ Distributed under the GPL 3.0 License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Mail me to [Abduz Zami](mailto:abduz.zami@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+Mail to [Abduz Zami](mailto:abduz.zami@gmail.com?subject=[GitHub]%20Desktop%20Manager%20Custom)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
