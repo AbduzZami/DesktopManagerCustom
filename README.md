@@ -73,7 +73,7 @@
 
 ![desktophome](https://user-images.githubusercontent.com/69592754/191519325-5182ae09-e8ac-4741-9f42-8abe8425d410.png)
 
-Desktop Manager will organize all the files in the desktop folder. We often download or store files on the desktop for quick access. But we do not delete or organize them later. Desktop Manager will delete empty folders and organize files according to their types. So our desktop will look clean.
+Desktop Manager will organize all the files in the desktop folder. We often download or store files on the desktop for quick access. But we do not delete or organize them later. Desktop Manager will delete empty folders and organize files according to their types. So our desktop will look clean. You can also organize other folders but make sure you don't have any program files there.
 
 
 ### Built With
